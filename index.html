@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anvesha Gupta | Profile</title>
+  <meta name="description" content="Anvesha Gupta, B.Tech IT student at MIT Manipal. Backend and mobile developer, Technical Head at ADG.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <a class="logo" href="#top">anvesha</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#journey">Education &amp; work</a>
+      <a href="#skills">Skills</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero: profile card -->
+    <section class="hero">
+      <figure class="profile-card">
+        <div class="card-photo">
+          <span class="initials" aria-hidden="true">A</span>
+          <!-- Put your photo in this folder as profile.jpg -->
+          <img src="profile.jpeg" alt="Portrait of Anvesha Gupta" onerror="this.remove()">
+        </div>
+        <figcaption>
+          <strong>Anvesha Gupta</strong>
+          <span>Developer, writer, dancer</span>
+        </figcaption>
+      </figure>
+
+      <div class="hero-text">
+        <h1>Hi, I'm Anvesha Gupta.</h1>
+        <p class="lede">
+          Third-year IT student at MIT Manipal. I build backends and mobile apps,
+          do some research on the side, and lead tech at the Apple Developer Group.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-ghost" href="https://m4n90.substack.com" target="_blank" rel="noopener">Read my blog</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="block">
+      <h2>About me</h2>
+      <div class="block-body">
+        <p>I started with C and now work mostly on the backend: Flask and FastAPI services, PostgreSQL, and APIs for mobile apps.</p>
+        <p>As Technical Head of the Apple Developer Group, I run workshops and hackathons. I'm currently preparing for SWE and quant roles, and aiming for a master's in computer science.</p>
+        <p>Outside code: poetry, Bharatanatyam, classical singing, reading, crochet, movies and new places.</p>
+      </div>
+    </section>
+
+    <!-- Education & work -->
+    <section id="journey" class="block">
+      <h2>Education &amp; work</h2>
+      <div class="block-body">
+
+        <h3 class="sub">Education</h3>
+        <ol class="timeline">
+          <li>
+            <time>2024 – 2028</time>
+            <div>
+              <h4>B.Tech, Information Technology</h4>
+              <p class="where">Manipal Institute of Technology, MAHE</p>
+              <p>CGPA 7.82 (after four semesters)</p>
+            </div>
+          </li>
+          <li>
+            <time>2024</time>
+            <div>
+              <h4>Class XII, Science (PCM)</h4>
+              <p class="where">Zydus School for Excellence, Ahmedabad</p>
+              <p>96%</p>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="sub">Experience</h3>
+        <ol class="timeline">
+          <li>
+            <time>Jun – Aug 2026</time>
+            <div>
+              <h4>Software Development Engineer Intern</h4>
+              <p class="where">Indianic Infotech, onsite</p>
+              <p>FastAPI, PostgreSQL, React Native</p>
+            </div>
+          </li>
+          <li>
+            <time>Jul – Sep 2025</time>
+            <div>
+              <h4>Backend Intern</h4>
+              <p class="where">MadTales AI, remote</p>
+              <p>Flask backend services</p>
+            </div>
+          </li>
+          <li>
+            <time>Jun 2025</time>
+            <div>
+              <h4>2nd place, ISTE DevCraft Hackathon</h4>
+              <p class="where">ClubConnect</p>
+              <p>Firebase platform for campus clubs, events and recruitment, with role-based access.</p>
+            </div>
+          </li>
+          <li>
+            <time>Ongoing</time>
+            <div>
+              <h4>Technical Head</h4>
+              <p class="where">Apple Developer Group, MIT Manipal</p>
+              <p>Technical sessions and the club hackathon</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="block">
+      <h2>Skills</h2>
+      <div class="block-body skills">
+        <div>
+          <h3 class="sub">Languages</h3>
+          <ul class="tags">
+            <li>Python</li><li>JavaScript</li><li>C</li><li>SQL</li><li>Dart</li><li>ARM assembly</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="sub">Backend</h3>
+          <ul class="tags">
+            <li>FastAPI</li><li>Flask</li><li>PostgreSQL</li><li>Firebase</li><li>REST APIs</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="sub">Mobile &amp; web</h3>
+          <ul class="tags">
+            <li>React Native</li><li>Redux</li><li>Flutter</li><li>HTML</li><li>CSS</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="sub">Tools</h3>
+          <ul class="tags">
+            <li>Git &amp; GitHub</li><li>Notion</li><li>Postman</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section id="interests" class="block">
+      <h2>Interests</h2>
+      <div class="block-body">
+        <ul class="interests">
+          <li>
+            <h3>Creative writing &amp; poetry</h3>
+            <p>Founded <a href="https://anveshagupta.wixsite.com/website" target="_blank" rel="noopener">The Anvesha Connection</a>, a poetry and essay blog, in 2020. Now writing on tech as m4n90.</p>
+          </li>
+          <li>
+            <h3>Bharatanatyam</h3>
+            <p>Five years of training, certified.</p>
+          </li>
+          <li>
+            <h3>Singing</h3>
+            <p>Two years of classical vocal, one of harmonium.</p>
+          </li>
+          <li><h3>Reading</h3></li>
+          <li><h3>Crochet</h3></li>
+          <li><h3>Movies</h3></li>
+          <li><h3>Exploring new places</h3></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="block">
+      <h2>Contact</h2>
+      <div class="block-body">
+        <p>Open to internships and collaborations. Email is quickest.</p>
+        <ul class="contact">
+          <li><span>Email</span><a href="mailto:anveshavgupta@gmail.com">anveshavgupta@gmail.com</a></li>
+          <li><span>GitHub</span><a href="https://github.com/GuptaAnvesha" target="_blank" rel="noopener">github.com/GuptaAnvesha</a></li>
+          <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/anvesha-gupta-9384b11b5/" target="_blank" rel="noopener">linkedin.com/in/anvesha-gupta-9384b11b5</a></li>
+          <li><span>Blog</span><a href="https://m4n90.substack.com" target="_blank" rel="noopener">m4n90.substack.com</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Anvesha Gupta. Built with HTML and CSS, hosted on GitHub Pages.</p>
+  </footer>
+
+</body>
+</html>
